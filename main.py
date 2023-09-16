@@ -6,8 +6,6 @@ load_dotenv()
 
 account_sid = os.getenv("account_sid")
 auth_token = os.getenv("auth_token")
-print(f"account_sid: {account_sid}")
-print(f"auth_token: {auth_token}")
 
 client = Client(account_sid, auth_token)
 
